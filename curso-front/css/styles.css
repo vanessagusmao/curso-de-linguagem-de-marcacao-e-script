@@ -1,0 +1,167 @@
+:root{
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+    }
+
+    th, td {
+        border: 0.5px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    td:last-child{
+        border-left: none;
+    }
+    td:first-child{
+        border-right: none;
+    }
+
+
+    .nivel-estrela {
+        color: #f39c12; 
+    }
+}
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #8a8b8b, #4b4b4b);
+    color: #333;
+}
+
+header {
+    border-color: #2c3e50;
+    text-align: center;
+    padding: 10px 0;
+    
+    transition: background 0.5s ease;
+}
+
+.headerstyle{
+    font-size: 18px;    
+    padding-top: 25px;
+    color: #d3a4ad;
+    font-family: 'Roboto';
+}
+
+main {
+    max-width: 1080px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    margin:15px;
+}
+
+.contato{
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    color:#333;
+    cursor: pointer;
+    font-size: 12px;    
+    text-transform: uppercase;
+
+    &:hover{
+        background-color: #564991;        
+        color:#9da0a1;
+    }
+}
+.title{
+    margin:10px;
+}
+.div-sobre{
+    margin:10px;
+}
+a{
+    color: #5a64f0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Inter'
+}
+
+.experiencias{
+    margin: 10px;
+}
+nav ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #2c3e50;
+}
+.botoes{
+    display: flex;
+    gap:10px;
+    margin:15px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.footer-main{
+    color: #d3a4ad;
+}
+/* css contato */
+
+.formulario-contato{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    gap: 11px;
+}
+.tela-contato{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-content{
+    width: 500px;
+}
+.contato-content{
+    width: 500px;
+}

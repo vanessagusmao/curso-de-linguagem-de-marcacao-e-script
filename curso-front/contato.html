@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfólio de Vanessa Gusmão - Desenvolvedora Front-End</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body class="tela-contato">
+    <header>
+        <div class="headerstyle">
+            <h1>PORTIFÓLIO</h1>
+        </div>
+        
+    </header>
+
+    <main class="form-content">
+        <section id="sobre-mim">
+            <h2>Formulário de Contato</h2>
+
+                    <form class="formulario-contato" name="formulario" onsubmit="return validarFormulario()">
+                        <label for="nome">Como você se chama?</label>
+                        <input type="text" id="nome" name="nome" required>
+                
+                        <label for="email">Como posso entrar em contato via e-mail?</label>
+                        <input type="email" id="email" name="email" required>
+                
+                        <label for="assunto">Qual motivo do contato?</label>
+                        <input type="text" id="assunto" name="assunto" required>
+                
+                        <label for="mensagem">Aceito críticas, sugestões, elogios..</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                        <div>
+                            <button class="contato" type="button" onclick="validarFormulario()">Enviar</button>
+                        </div>
+                    </form>
+                    
+        </section>
+
+        
+    </main>
+
+    <main class="contato-content">
+        
+        <h2>Entre em contato</h2>
+        <section  class="botoes">
+            <nav>
+                <a href="./index.html">
+                    <button class="contato">
+                        Sobre
+                    </button>
+                </a>
+            </nav>
+
+            <div>
+                <button class="contato"><a href="https://github.com/vanessagusmao">GITHUB</a></button>
+            </div>
+            <div>
+                <button class="contato"><a href="https://www.linkedin.com/in/vgusmao/">LINKEDIN</a></button>
+            </div>
+            
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Brasil</p>
+    </footer>
+</body>
+
+</html>
